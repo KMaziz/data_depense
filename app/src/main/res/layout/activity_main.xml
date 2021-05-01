@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/contoire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+              android:layout_margin="22dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="contoire" />
+
+        <Button
+            android:id="@+id/chicha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+              android:layout_margin="22dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="chicha" />
+
+        <Button
+            android:id="@+id/stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:layout_margin="22dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="stock" />
+
+        <Button
+            android:id="@+id/contaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+           android:layout_margin="22dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="autre" />
+
+        <Button
+            android:id="@+id/buttonstaff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:layout_margin="22dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="staff"  />
+
+        <Button
+            android:id="@+id/totaljoour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:layout_margin="22dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="total par jour" />
+
+        <Button
+            android:id="@+id/totalperode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:layout_margin="22dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="total par periode" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

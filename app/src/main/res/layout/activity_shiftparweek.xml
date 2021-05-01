@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="#fff"
+        tools:context=".shiftparweek"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#181818"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="shift par 7 days"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+
+<RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="  " />
+
+        <TextView
+            android:id="@+id/textViewSun"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:text="Sun"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textViewMon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:text="Mon"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textViewTue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:text="Tue"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textViewWed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:text="Wed"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textViewThu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:text="Thu"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textViewFri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:text="Fri"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textViewSat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:text="Sat"
+            android:textColor="#000" />
+    </LinearLayout>
+</RelativeLayout>
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout242"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="280dp"
+            android:background="#aaa" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="750dp"
+            android:padding="0dp" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="0dp" >
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="#aaa" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textView4am"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:gravity="center"
+                    android:text="shift 1"
+                    android:textColor="#000" />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/textView12pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="480dp"
+                    android:gravity="center"
+                    android:text="shift 2"
+                    android:textColor="#000" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="14"
+                android:padding="0dp" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:padding="0dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayoutSunday"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2" >
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="#aaa" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="180dp"
+                            android:background="#9ACC61"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/day11"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="35dp"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:gravity="center"
+
+                            />
+                        <TextView
+                            android:id="@+id/day12"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="320dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"  />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayoutMonDay"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2" >
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="#aaa" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="280dp"
+                            android:background="#9ACC61"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/day21"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="35dp"
+                                                      android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            />
+                        <TextView
+                            android:id="@+id/day22"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="320dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"    />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayoutTueDay"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2" >
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="#aaa" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginTop="40dp"
+                            android:background="#9ACC61"
+                            android:visibility="gone" />
+                        <TextView
+                            android:id="@+id/day31"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="35dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"  />
+                        <TextView
+                            android:id="@+id/day32"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="320dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"    />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayoutWedDay"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2" >
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="#aaa" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="90dp"
+                            android:layout_marginTop="60dp"
+                            android:background="#9ACC61"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/day41"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="35dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"          />
+                        <TextView
+                            android:id="@+id/day42"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="320dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"   />
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:layout_marginTop="340dp"
+                            android:background="#9ACC61"
+                            android:visibility="gone" />
+
+                  </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayoutThuDay"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2" >
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="#aaa" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="380dp"
+                            android:background="#9ACC61"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/day51"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="35dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"    />
+                        <TextView
+                            android:id="@+id/day52"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="320dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"   />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayoutFriDay"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2" >
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="#aaa" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="480dp"
+                            android:background="#9ACC61"
+                            android:visibility="gone" />
+                        <TextView
+                            android:id="@+id/day61"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="35dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"          />
+                        <TextView
+                            android:id="@+id/day62"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="320dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"   />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayoutSatDay"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2" >
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentRight="true"
+                            android:background="#aaa" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="340dp"
+                            android:background="#9ACC61"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/day71"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="35dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"   />
+                        <TextView
+                            android:id="@+id/day72"
+                            android:layout_width="fill_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="320dp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            />                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+
+</LinearLayout>
